@@ -31,6 +31,7 @@ Tints:
 Shades: #cf711f
 Accents: 
 Greys: 
+#767676; (lighest gray allowed on #fff)
 #6f6f6f (lighest grey allowed on #fdf2e9)
 #555
 #333
@@ -131,6 +132,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v {
   align-items: center;
 }
